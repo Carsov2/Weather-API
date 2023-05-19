@@ -6,6 +6,10 @@ header {
   background-color: rgb(42, 72, 136);
 }
 
+body {
+  background-color: antiquewhite;
+}
+
 .button {
   display: block;
   color: white;
@@ -56,10 +60,11 @@ input {
 
 .currentCity {
   position: relative;
+  justify-content: center;
   border: 1px solid black;
   left: 30%;
   padding: 10px;
-  height: 250px;
+  height: 100%;
   width: 1638px;
   margin-left: 20px;
 }
